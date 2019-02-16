@@ -1,0 +1,31 @@
+Linear Regression on Iris Dataset:
+
+The formula -- Inverse[Transpose(A).A]. Transpose(A).Y.
+
+So, using the Scikit Library, the Iris dataset have been loaded and it is divided into Data and Target. 
+
+A new column is added with 1s to the existing 'Data' set. 
+A transpose is performed on the 'new_Data'.
+After the multiplication of the 'New_Data' with the 'Data', a inverse is performed and the whole inverse is multiplied with the Transpose of the 'Data' and the 'Target', 
+to get the Beta value.
+
+Now, the Beta Value has to be multiplied with the 'Data' set and the new product between these two will give the 'Prediction' value.
+
+Now, the Sum of the squared error is calculated by taking the difference between the Prediction values and the Target values and the square is performed on the whole difference.
+This whole difference is added to get the sum of the squared error.
+
+Accuracy is calculated by subtracting the error from 100.
+Print accuracy.
+
+K FOLD:
+
+Using Support Vector Machine and cross validation scores we need to  get the values and using train_test_split data and target are split and the accuracy is determined by the scores.mean()
+function.
+
+For the cv = 5, the accuracy has been improved and then a better accuracy is checked.
+
+So, for cv = 10, the accuracy is achieved to be betteer than Linear Regression.
+
+
+
+
